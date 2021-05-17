@@ -34,14 +34,14 @@ We believe a hackathon can not only inspire the next billion-dollar unicorns but
 
 ## How to submit your work
 
+#### Please submit your work via this [form](https://forms.gle/qtPrV9EBQ4q7ibdP7) by 6pm PST, June 4 2021.
+
 1. Each team please submit a 2-5 minute video to explain your idea.
 2. Slides deck is optional but recommended.
 3. Please rename your documents with your team_name and project_name.
    For example, Oasis_UnityBook_Video, Oasis_UnityBook_PitchDeck, etc.
 
 *Please attention: The size of each file you submit must be less than 100M.*
-
-#### Please submit your work via this [form](https://forms.gle/qtPrV9EBQ4q7ibdP7) by 6pm PST, June 4 2021.
 
 
 
@@ -359,7 +359,7 @@ Shuo Chen, UC Berkeley Faculty
 
 ![Platinum Sponsor](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/1621148830107-MHLU1HW5LU4MVX618MSP/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+24.png?format=750w)
 
-###Gold Sponsors
+### Gold Sponsors
 
 ![Gold Sponsor](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/1620838340135-GGTDNLRMLVKWNV98ZRH5/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+36.png?format=500w)
 
