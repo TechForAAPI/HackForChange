@@ -36,7 +36,7 @@ We believe a hackathon can not only inspire the next billion-dollar unicorns but
 
 #### Please submit your work via this [Submission Form](https://forms.gle/qtPrV9EBQ4q7ibdP7) by 6pm PST, June 4 2021.
 
-1. Each team please submit a 2-5 minute video to explain your idea.
+1. Each team please submit a 2-5 minute video to demonstrate your solution.
 2. Slides deck is optional but recommended.
 3. Please rename your documents with your team_name and project_name.
    For example, Oasis_UnityBook_Video, Oasis_UnityBook_PitchDeck, etc.
@@ -59,7 +59,7 @@ In response to rising inequality and incidence of hate crimes, it is critical fo
 
 **Q: Who are the organizers?**
 
-We are the same group of passionate Tech people who hosted #TechforAAPI Virtual Rally. We come from Tech companies like Netflix, Pinterest, and Salesforce and communities including Product Pub, Shinect, UXRen, 工友记, Wuhan2020, and X-lab.
+We are the same group of passionate Tech people who hosted #TechforAAPI Virtual Rally. We come from Tech companies like Netflix, Pinterest, and Salesforce and communities including GongYouJi(工友记), Product Pub, Shinect, SJTU-SV, THAA-NC, The Society of Heart’s Delight (瑜园社), UXRenUS, and X-lab.
 
 **Q: Who is eligible to participate?**
 
@@ -189,9 +189,11 @@ Xiaodan Wang, Director, Product Design at Facebook
 
 ## Affiliated Faculty
 
-Lake Dai, CMU Professor
+**Lake Dai**, CMU Adjunct Professor of Applied AI
 
-Shuo Chen, UC Berkeley Faculty
+**Xiao-Liang Qi**, Stanford Professor of Physics
+
+**Shuo Chen**, UC Berkeley Faculty of Entrepreneurship
 
 
 
