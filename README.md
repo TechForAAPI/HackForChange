@@ -1,6 +1,6 @@
 # Welcome to #Hack For Change - let's build creative solutions to help the AAPI community!
 
-### Why this Hackathon
+## Why this Hackathon
 
 A horrific and heartbreaking surge in violence against Asian Americans and Pacific Islanders (AAPI) is happening across the US. As our commitment to uplifting and protecting the AAPI community, we want to unite the Tech communities to stand with the AAPI community.
 
@@ -12,21 +12,186 @@ We believe a hackathon can not only inspire the next billion-dollar unicorns but
 
 
 
-### Schedule
+## How to participate
 
-**May 1 - May 14:** Phase I - Sign-up (register for the Hackathon)
+1. Join our official Slack workspace: [Tech For AAPI ](https://techforaapi.slack.com/join/shared_invite/zt-pvry1gph-xU80RLDkaGLubHBNlUAxfw#/)
 
-**May 17 - May 23:** Phase II - Warm-up (propose ideas, team-up)
+2. Follow the schedule and take actions before the deadlines.
 
-**May 24 - Jun 4:** Phase III - Hands-on (teamwork)
+#### Schedule
 
-**Jun 5:** Phase IV - Preliminary Round & Audience Vote
+| Date                        | Main activities                                              |
+| --------------------------- | ------------------------------------------------------------ |
+| **May 1 - May 23**          | Sign-up for HackForChange [Registration Link](https://www.techforaapi.org/hackforchange) |
+| **May 10 - May 23**         | Idea contribution and team formation                         |
+| **May 23, 1 pm - 4 pm PST** | Join our Hackathon Kick-Off Event (including lightning pitch session) |
+| **May 24 - Jun 4**          | Hands-on (teamwork) and team formation continues             |
+| **June 4, 6 pm PST**        | Submission deadline                                          |
+| **June 5**                  | Preliminary Round                                            |
+| **June 6**                  | Final Pitch Competition and Awards Ceremony                  |
 
-**Jun 6:** Phase V - Demo Day & Awards!
+
+
+## How to submit your work
+
+1. Each team please submit a 2-5 minute video to explain your idea.
+2. Slides deck is optional but recommended.
+3. Please rename your documents with your team_name and project_name.
+   For example, Oasis_UnityBook_Video, Oasis_UnityBook_PitchDeck, etc.
+
+*Please attention: The size of each file you submit must be less than 100M.*
+
+#### Please submit your work via this [form](https://forms.gle/qtPrV9EBQ4q7ibdP7) by 6pm PST, June 4 2021.
 
 
 
-### FAQs
+#### (Optional) If you also want to submit a code project
+
+We welcome code submission to our GitHub repository.
+
+##### GitHub submission process
+
+- Fork official repository to personal github repository
+  - Visit [HackForChange](https://github.com/TechForAAPI/HackForChange). And then fort it to your own account.
+
+> Nota Bene :  the following commands are supposed to be done in console. [Git](https://git-scm.com/) is needed.
+
+- Clone personal github repository to local
+
+  - Back to your won GitHub page，find the *HackForChange* that you just forked，enter it, `clone` it to local, like :
+
+    ```bash
+    # replace the XXX with your own user name
+    git clone git@github.com:XXX/HackForChange.git
+    cd HackForChange
+    ```
+
+- Create a personal project folder under the local `ChallengeProject` folder, and place the submissions in the personal folder (use the name of your corresponding work). For details, refer to the following table:
+
+| Work        | Type Submissions in Folder                                   |
+| ----------- | ------------------------------------------------------------ |
+| Code works  | Personal Github project link, etc. (Source code is placed in personal GitHub repository, but **not necessary**) |
+| Other works | Links to works, etc. (such as Document link describing your idea and your implementation process) |
+
+* Pull Request ：Submit your work folder to the official repository
+
+  1. **To create a `branch`**
+
+  > It’s not recommended to develop in the master branch unless the urgent recovery.
+
+  According to the purpose, create a new branch and appropriately name it, run like this :
+
+  ```bash
+  git checkout -b my-fix-branch master
+  ```
+
+  2. **To modify content and submit**
+
+  Modify the corresponding file and submit :
+
+  ```bash
+  git add .
+  git commit -m "XXX"
+  ```
+
+  Pay attention to :
+
+  * clarify in one sentence for what have been done
+
+  If there is modification after `commit` , use the parameter `--amend`：
+
+  ```bash
+  git add .
+  git commit --amend -sm "XXX"
+  ```
+
+  3. Upstream repository change synchronization
+
+  To avoid upstream repository change synchronization ([HackForChange](https://github.com/TechForAAPI/HackForChange) )，it’s necessary to sync your local repository with the upstream：
+
+  ```bash
+  $ git remote add upstream git@github.com:TechForAAPI/HackForChange.git
+  $ git fetch upstream
+  ```
+
+  If there have been changes to the upstream repo already, please run `rebase` at first :
+
+  ```bash
+  $ git rebase upstream/master
+  ```
+
+  4. To push new branch to remote repository
+
+  ```bash
+  $ git push -f origin my-fix-branch:my-fix-branch
+  ```
+
+  5. To create a `Pull Request`
+
+  Create a `pull request` to the upstream repository. As shown:
+
+
+  If the content needs to be changed after other people's `review`, modify the relevant content, and then perform the following operations, the PR will automatically synchronize the `commit`.
+
+  ```bash
+  git add .
+  git commit --amend
+  git push -f origin my-fix-branch
+  ```
+
+  6. To resolve a merge conflict
+
+  > Nota bene : if no conflict occurs, no need to do these
+
+  -   Sync with upstream repo
+
+  ```bash
+  git fetch upstream
+  ```
+
+  -   Run `rebase`:
+
+  ```bash
+  git rebase upstream/master
+  ```
+
+  -   Manually resolve the conflict, then submit
+
+  ```bash
+  git add my-fix-file
+  git rebase --continue
+  git push -f origin my-fix-branch
+  ```
+
+  7. After the merge, you can：
+
+  -   Switch back to `master`：
+
+  ```bash
+  git checkout master -f
+  ```
+
+  -   Keep the `master` in sync with the upstream branch：
+
+  ```bash
+  git pull --ff upstream master
+  ```
+
+  -   Delete local branch (optional):
+
+  ```bash
+  git branch -D my-fix-branch
+  ```
+
+  -   Delete remote branch (optional)：
+
+  ```bash
+  git push origin --delete my-fix-branch
+  ```
+
+
+
+## FAQs
 
 **Q: What is the purpose of this Hackathon?** 
 
@@ -55,3 +220,181 @@ Yes. You will have the opportunity to pitch your ideas during the Lightning Pitc
 **Q: What will I get if I contribute?**
 
 As a participant in the hackathon (open to anyone interested), you would have the opportunity to work closely with teammates who share your passion as well as to learn insights from leaders in tech who will be assigned to each participating team as mentors. All teams and participants will have the opportunity to publicly demonstrate their work, including potential coverage by media partners of the Tech for AAPI Alliance. This hackathon will take place over 3 weeks, by the end of which judges and social media will vote for the best teams to receive grants to make their respective projects a reality. All projects will be open sourced and hosted on GitHub during the period of the hackathon, maximizing the team’s chance to be noticed by investors more broadly and hopefully long-term sustainable.
+
+**Q: What are the expected deliverables & workloads?** 
+
+A 2~5 min demo video is recommended for the final evaluation. You would also be given an opportunity to demonstrate your solution in a free-form format, in a safe and cozy environment.  You have approximately two weeks’ hands-on time, that’s primarily because some participants have a full-time job and have very limited bandwidth on weekdays. Feel free to spend time based on your own availability and bandwidth!
+
+
+
+## Judges
+
+Bill Jia, VP Engineering at Facebook
+
+Eugene Zhang, Founding Partner of TSVC
+
+Joann Wu, VP, Product Design at LinkedIn
+
+John Midgley, Director of Engineering at Netflix
+
+Lake Dai, Chairwoman & President of HYSTA, Partner of LDVP, CMU Professor
+
+Peter Wang, CTO at BuzzFeed
+
+Sui Huang, Director of Member Product Data Science and Engineering at Netflix
+
+Ruoruo (Lily) Zhang, Director of Engineering at Instacart
+
+Virginia Liu, Senior VP of Marketing and Ecosystems at Agora
+
+Wendy Nguyen, Co-organizer of Stand with Asian Americans, SVP of Growth at Section4
+
+Xiaodan Wang, Director, Product Design at Facebook
+
+
+
+## Mentors
+
+**Anuj Madan**	         Product Lead at Facebook
+
+**Bingfeng Xia**	         Engineering Manager at LinkedIn; President of Tsinghua Alumni Association of Northern California (THAA-NC)
+
+**Changqing Mu**	  Senior Manager at Charles Schwab
+
+**Chen Zheng**	         Co-founder/President of Product Pub, Guest Lecturer for Stanford University, and Advisor of DonatePPE. She is an educator for Product Management, and currently working as Director of Product Innovation at Netflix.
+
+**Chris Baker**	          Product Manager at Facebook
+
+**Dan Chern**	          Product Manager at Facebook
+
+**Darya Kishylau**	  Product Manager at Facebook
+
+**Elliot Peng**	          Product Designer at Microsoft
+
+**Gene Chuang**	  Tech Advisor, Angel Investor, CTO Slackers
+
+**Greg Lin Tanaka**	  Palo Alto City Council, Founder and CEO @Percolata, Congressional Candidate
+
+**Haimo Liu**	          Staff Product Manager at Alibaba cloud, based in Silicon Valley. Also a board member and Chief Content Officer of Product Pub
+
+**Jasmine Xu**	          Product Manager at Facebook
+
+**Jason Liu**	          Sr Product Designer at Salesforce, Co-founder of UXRenUS
+
+**Kun Gu**	                  People Analytics Manager at Facebook, president of Lightinghouse career mentorship program
+
+**Lisha Huang**	          Product Manager at Facebook
+
+**Luca Candela**	    Product Manager at Facebook
+
+**Luke Lu**	                   Founder of Tourmato
+
+**Lydia Tang**	           Senior Software Engineer at Netflix; Director at Product Pub
+
+**Mitali Painta**l	           Product Manager at Facebook
+
+**Parth Sethi**	           Product Manager at Facebook
+
+**Quoc Le**	                  Member of Technical Staff at WiteSand
+
+**Rongfei Geng**	   UX Designer at Google
+
+**Ruijing (Jill) Ren**	   Chief of Staff, Office of CEO at Verdigris. An industry ESG practitioner who aspires to create the change through long-term social innovation
+
+**Shaobo Sun**	           Engineering Manager at Quizlet
+
+**Shu Dong**	           President of ABC Blockchain Community, Software Engineer at Facebook
+
+**Shu Jiang**                  UX Designer at Google, mentor at UX Coffee Hours, owner of YouTube channel Yobi321
+
+**Vish Bindage**	   Growth Product Manager at Facebook
+
+**Vivia Liu**	                 UX designer and Design Sprint leader at Google, owner of YouTube and Bilibili channel: ViviaDesign
+
+**Wilson Hong**	           Tech Lead at Facebook
+
+**Xander Wu**	           Vice Chairman of Wuhan2020 community and advisor to X-lab; mentor at Plug and Play
+
+**Xia Hong**	           Senior Data Scientist at LinkedIn
+
+**Xu (Frank) Liu**	    Staff Engineer at Illumina. Executive Director, University of Science and Technology of China Initiative Foundation, North America
+
+**Yaxiong Zhao**	    Founding Engineer at NamePixie
+
+**Ying Fang**	            TL at Google
+
+**Zhimin Zong**	            Engineering Manager at Robinhood
+
+
+
+## Affiliated Faculty
+
+Lake Dai, CMU Professor
+
+Shuo Chen, UC Berkeley Faculty
+
+
+
+## Organizers
+
+![Frame 5.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/8691b286-0a12-40d7-a920-4e2a7e826de9/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+5.png?format=750w)
+
+![Frame 13.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/ff7a29e7-2dce-43b0-8f9e-4e4a8f7e34c4/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+13.png?format=750w)
+
+![Frame 6.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/d5a6375e-a289-4fd6-8b56-8403cab9d978/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+6.png?format=750w)
+
+![Frame 7.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/497e152e-069f-4a31-a492-25d62669a36e/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+7.png?format=750w)
+
+![Frame 14.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/ecf09600-d814-46bb-9e27-0dc037b126b7/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+14.png?format=750w)
+
+![Frame 8.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/c2d661ce-11dc-4bbd-99d5-5e05847eec6a/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+8.png?format=750w)
+
+![Frame 15.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/8dde60b0-9bcd-4d8e-a85c-78eb76ce40b3/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+15.png?format=750w)
+
+![Frame 9.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/e8f090d1-3f0f-47e6-b7ca-11a0f735e13d/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+9.png?format=750w)
+
+## Sponsors
+
+### Platinum Sponsor
+
+![Platinum Sponsor](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/1621148830107-MHLU1HW5LU4MVX618MSP/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+24.png?format=750w)
+
+###Gold Sponsors
+
+![Gold Sponsor](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/1620838340135-GGTDNLRMLVKWNV98ZRH5/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+36.png?format=500w)
+
+![Gold Sponsor](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/f5282b91-b66a-4cfd-b9ce-7835c43843e5/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+30.png?format=500w)
+
+![Gold Sponsor](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/4b4e6efb-d476-4ac3-9409-d6115a1f1fbb/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+41.png?format=500w)
+
+![Gold Sponsor](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/1620838322679-6FD3HFKHSOTONCI9SB0S/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+38.png?format=500w)
+
+![Gold Sponsor](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/1621148944159-YQARLSE0I08PP77V1Y9N/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+42.png?format=500w)
+
+### Community Partners
+
+![Frame 20.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/bc192e5c-915d-4000-8b82-79656a51bcba/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+20.png?format=500w)
+
+![Frame 39.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/4ca1553d-49be-48e4-90a5-348d072c7777/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+39.png?format=500w)
+
+![Frame 35.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/e5a81519-64cb-43fc-9371-f1513c294acc/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+35.png?format=500w)
+
+![Frame 23.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/a4501f4c-8172-4e27-b0dc-ac91684f2365/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+23.png?format=500w)
+
+![Frame 33.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/7b386c97-afd9-4c51-8475-e7a7ed678f15/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+33.png?format=500w)
+
+![Frame 10.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/05dd67ce-6f82-438c-acb1-e8408f70e240/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+10.png?format=500w)
+
+![Frame 28.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/482d49d6-c4ca-4f57-b973-cc80516ad77c/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+28.png?format=500w)
+
+![Frame 29.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/9cae4092-1bfb-45ab-aad9-344f43d8077d/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+29.png?format=500w)
+
+![Frame 27.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/4db85cdc-9c87-40a6-9eb9-5177e7463e63/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+27.png?format=500w)
+
+![Frame 21.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/a7ede8a3-2505-40b1-9174-ddc096de19bc/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+21.png?format=500w)
+
+![Frame 31.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/d61411ff-abb4-48da-8cd1-d507fb22f3d6/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+31.png?format=500w)
+
+![Frame 22.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/9e9a45c4-84ae-4d11-a72c-af58b3af176a/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+22.png?format=500w)
+
+![Frame 34.png](https://images.squarespace-cdn.com/content/v1/6070fb6260fa3a56d780b950/b8deb912-c560-4efe-a113-f08ea8af5307/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZu4EA4VkQXskbAiP4Lo2GV8HD7TW41NQmswmX4LjmCLoRwB-dUGsSquCnVTFQcaRg/Frame+34.png?format=500w)
