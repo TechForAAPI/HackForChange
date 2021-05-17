@@ -23,10 +23,10 @@ We believe a hackathon can not only inspire the next billion-dollar unicorns but
 | Date                        | Main activities                                              |
 | --------------------------- | ------------------------------------------------------------ |
 | **May 1 - May 23**          | Sign-up for HackForChange [Registration Link](https://www.techforaapi.org/hackforchange) |
-| **May 10 - May 23**         | Idea contribution and team formation                         |
+| **May 10 - May 23**         | Idea contribution and team formation [Online Form](https://docs.google.com/spreadsheets/d/1mvwQLujV9lY9RLhbARabB1Sp9iQNL70JpC87zM1rG4M/edit?usp=sharing) |
 | **May 23, 1 pm - 4 pm PST** | Join our Hackathon Kick-Off Event (including lightning pitch session) |
 | **May 24 - Jun 4**          | Hands-on (teamwork) and team formation continues             |
-| **June 4, 6 pm PST**        | Submission deadline                                          |
+| **June 4, 6 pm PST**        | Submission deadline [Submission Form](https://forms.gle/qtPrV9EBQ4q7ibdP7) |
 | **June 5**                  | Preliminary Round                                            |
 | **June 6**                  | Final Pitch Competition and Awards Ceremony                  |
 
@@ -34,7 +34,7 @@ We believe a hackathon can not only inspire the next billion-dollar unicorns but
 
 ## How to submit your work
 
-#### Please submit your work via this [form](https://forms.gle/qtPrV9EBQ4q7ibdP7) by 6pm PST, June 4 2021.
+#### Please submit your work via this [Submission Form](https://forms.gle/qtPrV9EBQ4q7ibdP7) by 6pm PST, June 4 2021.
 
 1. Each team please submit a 2-5 minute video to explain your idea.
 2. Slides deck is optional but recommended.
