@@ -91,6 +91,8 @@ A 2~5 min demo video is recommended for the final evaluation. You would also be 
 
 Bill Jia, VP Engineering at Facebook
 
+Edward Kao, Physician and Healthcare Executive at Kaiser Permanente
+
 Eugene Zhang, Founding Partner of TSVC
 
 Joann Wu, VP, Product Design at LinkedIn
@@ -173,7 +175,7 @@ Xiaodan Wang, Director, Product Design at Facebook
 
 **Wilson Hong**	           Tech Lead at Facebook
 
-**Xander Wu**	           Vice Chairman of Wuhan2020 community and advisor to X-lab; mentor at Plug and Play
+**Xander Wu**	           Vice Chairman of Wuhan2020 community and advisor to X-lab; Mentor at Plug and Play
 
 **Xia Hong**	           Senior Data Scientist at LinkedIn
 
