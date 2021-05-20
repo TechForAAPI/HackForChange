@@ -85,6 +85,10 @@ As a participant in the hackathon (open to anyone interested), you would have th
 
 A 2~5 min demo video is recommended for the final evaluation. You would also be given an opportunity to demonstrate your solution in a free-form format, in a safe and cozy environment.  You have approximately two weeks’ hands-on time, that’s primarily because some participants have a full-time job and have very limited bandwidth on weekdays. Feel free to spend time based on your own availability and bandwidth!
 
+**Q: How to submit my work?**
+
+Please follow the instructions on our [GitHub page](https://github.com/TechForAAPI/HackForChange#how-to-submit-your-work) to submit your work.
+
 
 
 ## Judges
