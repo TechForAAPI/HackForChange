@@ -34,20 +34,43 @@ We believe a hackathon can not only inspire the next billion-dollar unicorns but
 
 ## How to submit your work
 
-#### Please submit your work via this [Submission Form](https://forms.gle/qtPrV9EBQ4q7ibdP7) by 6pm PST, June 4 2021.
+#### Please submit your work via this [Submission Form](https://forms.gle/qtPrV9EBQ4q7ibdP7) by 6pm PST, June 4, 2021.
 
-1. Each team please submit a 2-5 minute video to demonstrate your solution.
-2. Slides deck is optional but recommended.
-3. Please rename your documents with your team_name and project_name.
+#### We will announce the 10 teams that enter the final round by 6pm PDT, June 5, 2021
+
+1. Each team please submit a 3-minute video to demonstrate your solution.
+2. We recommend you give an elevator pitch at the beginning, followed by the demo.
+3. Slides deck is optional but recommended.
+4. Please rename your documents with your team_name and project_name.
    For example, Oasis_UnityBook_Video, Oasis_UnityBook_PitchDeck, etc.
 
 *Please attention: The size of each file you submit must be less than 100M.*
 
-
-
 #### (Optional) If you also want to submit a code project
 
 We welcome code submission to our GitHub repository. You can refer to the [document](./github_submission_process.md) to submit your code work.
+
+
+
+## Judging criteria
+
+#### Preliminary Round
+
+1. 3 teams will be selected by social media votes.
+
+   The organizer committee will upload each of your video to our [YouTube channel](https://youtube.com/channel/UCFrecjD4D0zCEAyZGWqGXnA). Please try to get as many Likes on YouTube as possible. The top 3 teams will enter the final round.
+
+2. 7 teams will be selected by mentors.
+
+   Each mentor will select up to 5 projects and distribute 5 scores to the projects. 7 teams who ranked the highest by the mentors will enter the final round.
+
+3. We will announce the 10 teams that enter the final round by 6pm PDT, June 5, 2021
+
+#### Final Round
+
+Each team will have a 5-minute pitch and a 3-min Q&A session.
+
+You can play your video or make a presentation during the pitch time.
 
 
 
